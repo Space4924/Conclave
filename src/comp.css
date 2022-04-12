@@ -1,0 +1,35 @@
+body{
+    background-color: pink;
+}
+.start
+{
+   background-color: aliceblue;
+   /* display: inline;position:  ; */
+   display: flex;
+   flex-wrap: wrap ;
+   flex-flow: wrap row-reverse;
+   justify-content: space-around;
+   height: 400px;
+   align-items:flex-start;
+   align-content: space-between;
+
+   /* flex-direction: column-reverse; */
+   margin: 50px;
+   padding: 50px;
+   /* font-size: 5vh; */
+
+    
+}
+.container{
+    background-color: red;
+    width: auto;
+    color:white;
+    display: inline-block;
+    width: 80px;
+     display: inline;
+    /* flex-direction:column-reverse; */ 
+     margin: 20px;
+     padding: 30px;
+     text-align: center;
+
+}
